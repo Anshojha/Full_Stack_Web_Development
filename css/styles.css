@@ -1,11 +1,30 @@
 
+body{
+    font-family:'Montserrat';
+}
+
+
+
 #title{
     background-color: #ff4c68; 
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 1% 10%;    
 }
 
 h1{
     font-family: 'Montserrat-Black';
-
     font-size: 3rem;
     line-height: 1.5;
+}
+
+/* rotating image */
+.rotate90 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
 }

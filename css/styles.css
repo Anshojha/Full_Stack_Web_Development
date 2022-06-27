@@ -1,11 +1,9 @@
 
-body{
-    font-family:'Montserrat';
-}
 
 
 
 #title{
+    text-align: center;
     background-color: #ff4c68; 
     color: #fff;
 }
@@ -36,9 +34,8 @@ p{
 
 /* Navigation Bar */
 
-.navbar{
-    padding:0 0 4.5rem;
-}
+
+
 
 .navbar-brand{
     font-family: "ubuntu";
@@ -51,7 +48,7 @@ p{
 }
 .nav-link  {
     font-size: 1.5rem;
-    font-family: 'Montserrat-Light';
+    font-family: "Montserrat-Light";
 }
 
 /* Download Button */
@@ -66,11 +63,15 @@ p{
 .title-image{
  width: 60%;
  transform: rotate(25deg);
+ /* position:absolute; */
 }
 
 
 #features{
+    position: relative;
+    z-index: 1;
     padding: 7% 15%;
+    background-color: #fff;
 }
 
 .features-box{
@@ -115,3 +116,52 @@ p{
 .carousel-item{
     padding: 7% 15%;
 }
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:7% 15%;
+   color: #fff;
+}
+
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer-section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 10px 20px;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+}
+
